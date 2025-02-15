@@ -1,0 +1,109 @@
+/*global  -Elementos de toda la pagina*/  
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial;
+    /*background-color: black;*/
+    background-color: #272935;
+    color: white;
+}
+
+p{
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+h3{
+margin-top: 30px;
+}
+
+
+
+/*utilities*/
+
+.active{
+    /*color: rgb(0, 128, 0);*/
+    color: #33b38d;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text-primary{
+   /* color:#1ef141;*/
+    color: rgb(51, 179, 141);
+}
+
+.text-secondary{
+   /* color:#1ef141;*/
+    color: rgb(51, 179, 141);
+}
+
+.container{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*nav*/
+
+.menu-nav{
+    /*background-color: green;*/
+    height: 60px;
+    background-color:  white; 
+    padding-left: 20px;
+}
+
+.menu-nav a{
+    margin-right: 30px;
+}
+
+.menu-nav a:hover{
+    /*color: #345e3d;*/
+    color: #33b38d;
+
+}
+
+/*header*/
+
+.my-info{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.my-info img{
+
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+    .my-info h1{
+        font-weight: 400;
+        font-size: 42px;
+    }
+    .my-info p{
+        font-size: 20px;
+    }
+    /*main*/
