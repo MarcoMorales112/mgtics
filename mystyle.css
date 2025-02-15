@@ -30,6 +30,21 @@ h2{
 }
 
 
+table{
+    width: 500px;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-right: 20px;
+    text-align: center;
+
+}
+
+td,th{
+    border: 1px solid white;
+}
+
+
+
 h3{
 margin-top: 30px;
 }
@@ -107,3 +122,19 @@ margin-top: 30px;
         font-size: 20px;
     }
     /*main*/
+
+    .main-flex{
+        display: flex;
+        justify-content: space-around; /*Horizontal*/
+        align-items: center; /*Vertical*/
+        height: 70vh;
+    }
+
+header{
+    width: 50%;
+}
+
+    .interes-flex{
+        display: flex;
+        justify-content: flex-start;
+    }
