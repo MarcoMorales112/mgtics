@@ -32,16 +32,36 @@ h2{
 
 table{
     width: 500px;
-    border: 1px solid white;
+    border:1px solid white;
     border-collapse: collapse;
     margin-right: 20px;
     text-align: center;
 
 }
-
 td,th{
-    border: 1px solid white;
+    border:1px solid white;
+    padding: 10px;
 }
+
+
+/*
+table{
+    width: 500px;
+    border:1px solid white;
+    border-collapse: collapse;
+    margin-right: 20px;
+    text-align: center;
+}
+td,th{
+    border:1px solid white; 
+    padding: 10px;
+}
+
+*/
+
+
+
+
 
 
 
@@ -125,7 +145,7 @@ margin-top: 30px;
 
     .main-flex{
         display: flex;
-        justify-content: space-around; /*Horizontal*/
+        justify-content: space-between; /*Horizontal*/
         align-items: center; /*Vertical*/
         height: 70vh;
     }
@@ -137,4 +157,27 @@ header{
     .interes-flex{
         display: flex;
         justify-content: flex-start;
+    }
+
+
+
+    /*Publications*/
+
+    .publication-title{
+        color:rgb(12, 116, 121);
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .publication-authors{
+        font-size: 14px;
+        color:#989191;
+    }
+
+    .publication-link{
+        color:rgb(12, 116, 121);
+        border: 1px solid rgb(12,116,121);
+        border-radius: 3px;
+        padding:3px;
+        font-size: 12px;
+        margin-right: 5px;
     }
