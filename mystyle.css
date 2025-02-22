@@ -181,3 +181,65 @@ header{
         font-size: 12px;
         margin-right: 5px;
     }
+
+
+    /*Projects*/
+
+    .project-table{
+        border-radius: 10px;
+        overflow: hidden;
+        width: 80%;
+        background-color: white;
+        color: black;      
+      /*  font-family: 'Poppins', sans-serif;*/
+        font-family: 'Roboto', sans-serif;
+
+        font-size: 20px;
+
+    }
+
+    .imagen-project{
+        width: 100px;
+        height: 100px;
+    }
+
+.title-projects{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 10px 10px 10px #aaa;
+}
+.projects-link{
+    color:rgb(12, 116, 121);
+    border: 1px solid rgb(12,116,121);
+    border-radius: 3px;
+    padding:3px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.my-project img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.text-titulo{
+    text-align: center;
+}
+
+
+    @media(max-width:768px){
+
+        body{
+            background-color: red;
+        }
+
+        a{
+            display: none;
+        }
+
+    }
+
+   
