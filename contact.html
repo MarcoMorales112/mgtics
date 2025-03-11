@@ -33,30 +33,32 @@
 
             <div class="mb-3">
                 <label>Nombre</label>
-                <input class="form-control" type="text">
+                <input class="form-control" type="text" id="txtName">
             </div>
 
             <div>
                 <label>Edad</label>
-                <input class="form-control" type="number">
+                <input class="form-control" type="number" id="txtAge">
             </div>
 
             <div>
                 <label>Materia 1</label>
-                <input class="form-control" type="number">
+                <input class="form-control" type="number" id="txtGrade1">
             </div>
 
             <div>
                 <label>Materia 2</label>
-                <input class="form-control" type="number">
+                <input class="form-control" type="number" id="txtGrade2">
             </div>
 
             <div class="mb-3">
-                <button class="btn btn-primary">Registrar</button>
+                <button class="btn btn-primary" onclick="register()">Registrar</button>
             </div>
     </main>
-
-    <script  src="./scripts/script1.js"></script>
+    <div id="list"> 
+    </div>
+    <button class="btn btn-danger" onclick="clearStorage()">Borrar Alumnos</button>
+    <script  src="./scripts/register.js"></script>
 
 </body>
 </html>
